@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  background: linear-gradient( to right, #1ae6ea, #ff7575);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background:#ff7675;
+  border-radius: 10px;
+  }
+
+  .center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #81ecec;
+  }
+
+  .center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+
+  form .txt_field {
+    position: relative;
+    border-bottom: 2px solid #81ecec;
+    margin: 25px 0;
+  }
+
+  .txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    }
+
+  .txt_field label {
+    position: absolute;
+    top: 3.5%;
+    left: 3px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+  }
+
+  .txt_field ::placeholder {
+    position: absolute;
+    bottom: 3.5%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  
